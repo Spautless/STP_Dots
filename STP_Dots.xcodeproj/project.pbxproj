@@ -12,6 +12,7 @@
 		5D7D47B81C55A87E00A25931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D47B61C55A87E00A25931 /* Main.storyboard */; };
 		5D7D47BA1C55A87E00A25931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D47B91C55A87E00A25931 /* Assets.xcassets */; };
 		5D7D47BD1C55A87E00A25931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D47BB1C55A87E00A25931 /* LaunchScreen.storyboard */; };
+		5DC80C7E1C55AE1B007B0D7D /* AccelerometerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC80C7D1C55AE1B007B0D7D /* AccelerometerHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D7D47B91C55A87E00A25931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7D47BC1C55A87E00A25931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7D47BE1C55A87E00A25931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC80C7D1C55AE1B007B0D7D /* AccelerometerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				5D7D47B91C55A87E00A25931 /* Assets.xcassets */,
 				5D7D47BB1C55A87E00A25931 /* LaunchScreen.storyboard */,
 				5D7D47BE1C55A87E00A25931 /* Info.plist */,
+				5DC80C7D1C55AE1B007B0D7D /* AccelerometerHandler.swift */,
 			);
 			path = STP_Dots;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7D47B51C55A87E00A25931 /* ViewController.swift in Sources */,
+				5DC80C7E1C55AE1B007B0D7D /* AccelerometerHandler.swift in Sources */,
 				5D7D47B31C55A87E00A25931 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +290,7 @@
 				5D7D47C31C55A87E00A25931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
